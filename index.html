@@ -45,7 +45,7 @@
         
         #welcome{
             font-family: "Lucida Handwriting";
-            font-size: 20px;
+            font-size: 30px;
 
         .btn-outline:hover {
             opacity: 1;
@@ -90,27 +90,6 @@
 </head>
 
 <body>
-    <nav class=class="navbar navbar-dark bg-dark fixed-top">
-        <a class="navbar-brand" href="#landing">Chidera Love<span class="sr-only">(current)</span></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#projects">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#courses">Courses</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
     <div class="container landing d-flex justify-content-center flex-column align-items-center" id="landing">
         <div class="row mx-auto">
             <h4 class="display-4 font-weight-bold mx-auto text-center" id="welcome">Welcome, here you will learn a little about Chidera Love!</h4>
@@ -120,6 +99,9 @@
                 University.</h5>
         </div>        
         <div class="row my-4">
+            <div class="col">
+                <a href="#aboutMe"><button type="button" class="btn btn-outline">About Me</button></a>
+            </div>
             <div class="col">
                 <a href="#projects"><button type="button" class="btn btn-outline">Projects</button></a>
             </div>
@@ -131,10 +113,33 @@
             </div>
         </div>
         <div class="row mt-5 next">
+            <a href="#aboutMe" class="col"><i class="fas fa-arrow-down" data-toggle="tooltip" data-placement="top"
+                    title="aboutMe"></i></a> </div>
+    </div>
+    
+    <div class="container landing d-flex justify-content-center flex-column align-items-center" id="aboutMe">
+        <div class="row mx-auto">
+            <h4 class="display-4 font-weight-bold mx-auto text-center">About Me</h4>
+        </div>
+    <div class="row w-100">
+        <h5>Life</h5>
+        </div>
+        <div class="row w-100 mb-4">
+            <p class="text-justify">My name is Chidera Love, I am a current senior looking forward to graduatng December 2022. My current goals are to get a full time opportunity
+            as a Data Analyst, also to relocate to Connecticut.</p>
+        </div>
+        <div class="row w-100">
+        <h5>Interests</h5>
+        </div>
+        <div class="row w-100 mb-4">
+            <p class="text-justify">I have several interests. That includes technology (obviously) as well as mathematics. I also enjoy reading for leisure and watching
+            crime shows on Netflix.</p>
+        </div>
+        
+        <div class="row mt-5 next">
             <a href="#projects" class="col"><i class="fas fa-arrow-down" data-toggle="tooltip" data-placement="top"
                     title="Projects"></i></a> </div>
-
-    </div>
+    
     <div class="container landing d-flex justify-content-center flex-column align-items-center" id="projects">
         <div class="row mx-auto">
             <h4 class="display-4 font-weight-bold mx-auto text-center">Projects</h4>
@@ -168,10 +173,6 @@
                 it was so difficult for me because the form kept looking funky for a while so I ha to play around a bit. But overall, I defiitely 
                 learn a lot about HTML/CSS through this lab because of how much it stretched me. </p>
         </div>
-        <div class="row w-100">
-            <h5>Query Dating Site</h5>
-        </div>
-
         </div>
         <div class="row mt-5 next">
             <a href="#courses" class="col"><i class="fas fa-arrow-down" data-toggle="tooltip" data-placement="top"
