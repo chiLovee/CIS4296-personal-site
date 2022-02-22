@@ -15,9 +15,9 @@
         html,
         body {
             height: 100%;
-            font-family: 'Merriweather Sans', sans-serif;
+            font-family: 'Lucida Console';
             scroll-behavior: smooth;
-            background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F291819250826031685%2F&psig=AOvVaw1BU0jhACEH7mpVlz4HpqZX&ust=1645593542359000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCODluujHkvYCFQAAAAAdAAAAABAz"); 
+            background-color: #E69296;           
         }
 
         .faded {
@@ -37,6 +37,10 @@
             opacity: 0.5;
             transition: 0.3s;
 
+        }
+        
+        #info{
+            background-color: pink;
         }
 
         .btn-outline:hover {
@@ -148,35 +152,35 @@
             <h5 class="display-5 mx-auto faded text-center mb-4">I've worked on some neat things.</h5>
         </div>
         <div class="row w-100">
-            <h5>Inspiro for Esperanza</h5>
+            <h5>Tutorial Project - Ruby On Rails</h5>
         </div>
         <div class="row w-100 mb-4">
-            <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce maximus nisi
-                in neque blandit auctor. Vestibulum pellentesque fringilla nulla quis sagittis. Donec id erat
-                sodales, fringilla est non, vestibulum tellus. Suspendisse potenti. Fusce et dolor blandit,
-                tincidunt eros non, pharetra orci. Donec massa neque, suscipit at purus ac, cursus tincidunt
-                purus. Suspendisse imperdiet massa nec sem dictum luctus. Vestibulum at porta lectus, sed
-                faucibus libero. </p>
+            <p class="text-justify">For this project, my partner and I chose our topic to be Ruby on Rails. 
+                We chose to create an email web application. Creating this was very fun as well as challenging because we were working with something 
+                that neither of us had worked with before. 
+                So a lot of research went into this project as well as time and efforts. I learned alot strangely about path directories because after 
+                downloading node.js and yarn which were softwares that my partner and I needed, it failed to show up on the terminal screen when we tried to 
+                check which version it was. So we had to do research on putting things in the correct paths and it took us a whole day to figure it out. 
+                That was probably the most frustraing day working on the project.
+                I did not like how broad the guidelines were. I felt like I did not know how compelx to make our web development. I was so used to labs having all the requirements down, 
+                so you know what is needed. But, I do think that my partner and I did a great job on this. Also, I really enjoyed doing the tutorial page because as we were 
+                putting things down to teach others, my partner and I too were just learning so it was interesting. Overall, I had a fun time. </p>
         </div>
         <div class="row w-100">
-            <h5>Work From Home Pinterest</h5>
+            <h5>Responsive Web Design</h5>
         </div>
         <div class="row w-100 mb-4">
-            <p class="text-justify">Vestibulum vulputate ullamcorper placerat. Fusce bibendum ligula non ex dapibus
-                finibus. Nulla facilisi. Integer eu libero lorem. Pellentesque eget pretium ligula. Donec finibus nibh
-                sed leo dapibus imperdiet. Fusce cursus eu mi sed porttitor. Aliquam eget suscipit dolor, ac mollis
-                risus. Vestibulum commodo turpis nulla, bibendum varius urna dictum porta. </p>
+            <p class="text-justify">I learned a lot from this lab. I learned just all the intricate things that goes into creating an efficient webpade. In this lab, I learned how to create virtual pages. It was tricky figuring out how to make the links connect to the specific virtual pages. Also, figuring out how to design the web pages individually while making sure there was a smooth flow in the website. I also learned how to make a navigation system stay visible no matter where the user is on the webpage, that was also tricky.
+                I loved being able to design each of the virtual pages. Give them their own different vibes. I also loved my topic a lot, as a Nigerian, 
+                I loved being able to inform others about my country if they do not kow about it. I also loved the photo gallery, 
+                I believe that is my favorite part of the virtual page. I just loved how it came together. I strongly disliked creating the form, 
+                it was so difficult for me because the form kept looking funky for a while so I ha to play around a bit. But overall, I defiitely 
+                learn a lot about HTML/CSS through this lab because of how much it stretched me. </p>
         </div>
         <div class="row w-100">
             <h5>Query Dating Site</h5>
         </div>
-        <div class="row w-100">
-            <p class="text-justify">Fusce egestas lectus ac est porttitor congue. Mauris lacinia pharetra odio ut
-                egestas. Nullam facilisis condimentum consequat. Integer arcu nibh, ullamcorper non fringilla quis,
-                tempus sit amet turpis. Proin ac gravida mi. Ut eros quam, pharetra venenatis pharetra at, porttitor sit
-                amet dolor. Ut et accumsan metus. Phasellus eros diam, tristique a maximus vel, fringilla eu nisl.
-                Pellentesque sed quam non urna dapibus porta in in nibh. Phasellus lobortis nibh est, id pretium orci
-                efficitur at. </p>
+
         </div>
         <div class="row mt-5 next">
             <a href="#courses" class="col"><i class="fas fa-arrow-down" data-toggle="tooltip" data-placement="top"
@@ -224,12 +228,12 @@
         <div class="row mx-auto">
             <h5 class="display-5 mx-auto faded text-center">I don't bite.</h5>
         </div>
-        <div class="row my-4 contacticon">
-            <a href="mailto:johndoe@gmail.com" class="col mx-3"><i class="fas fa-envelope-square"
+        <div class="row my-4 contacticon" id="info">
+            <a href="mailto:tuj81852@temple.edu" class="col mx-3"><i class="fas fa-envelope-square"
                     data-toggle="tooltip" data-placement="top" title="Email"></i></a>
-            <a href="https://www.linkedin.com/in/johndoe/" class="col mx-3"><i class="fab fa-linkedin"
+            <a href="https://www.linkedin.com/in/chidera-iloka/" class="col mx-3"><i class="fab fa-linkedin"
                     data-toggle="tooltip" data-placement="top" title="LinkedIn"></i></a>
-            <a href="https://github.com/johndoe" class="col mx-3"><i class="fab fa-github-square"
+            <a href="https://github.com/chiLovee" class="col mx-3"><i class="fab fa-github-square"
                     data-toggle="tooltip" data-placement="top" title="Github"></i></a>
 
         </div>
